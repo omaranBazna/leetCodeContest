@@ -24,8 +24,16 @@ var equalPairs = function (grid) {
       }
       if (match) {
         count++;
+        console.log(col);
       }
     }
   }
   return count;
 };
+console.log(
+  equalPairs([
+    [3, 2, 1],
+    [1, 7, 6],
+    [2, 7, 7],
+  ])
+);
