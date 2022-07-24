@@ -10,5 +10,6 @@ var repeatedCharacter = function (s) {
       return char;
     }
   }
+  return "";
 };
 console.log(repeatedCharacter("abccbaacz"));
