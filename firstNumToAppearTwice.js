@@ -7,7 +7,7 @@ var repeatedCharacter = function (s) {
     if (map.hasOwnProperty(char)) {
       map[char] = 1;
     } else {
-      map[char]++;
+      return char;
     }
   }
 };
